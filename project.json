@@ -5,5 +5,10 @@
   "memory": 128,
   "timeout": 5,
   "role": "arn:aws:iam::213144662080:role/serverless-react-serverside_lambda_function",
-  "environment": {}
+  "runtime": "nodejs4.3",
+  "handler": "lib.default",
+  "hooks": {
+	  "build": "cp ../../package.json . && npm install --production && babel src -d lib",
+	  "clean": "rm -rf lib node_modules package.json"
+  }
 }
