@@ -1,0 +1,9 @@
+
+{
+  "name": "serverless-react-serverside",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::213144662080:role/serverless-react-serverside_lambda_function",
+  "environment": {}
+}
