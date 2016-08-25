@@ -58,3 +58,4 @@ doc/
 .secret
 .envrc
 *.bk
+test/
