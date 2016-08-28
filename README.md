@@ -1,0 +1,1 @@
+# serverless-react-wpapi-frontend
