@@ -5,7 +5,7 @@ import Archive from './Archive';
 export default class App extends Component {
 	render() {
 		return (
-			<Layout>
+			<Layout data={this.props.data}>
 				<Archive />
 			</Layout>
 		);
